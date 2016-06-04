@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TicTacToe</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Alegreya+Sans:800italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/customGa.css">
+  <link rel="stylesheet" href="css/sweetalert.css">
+</head>
+<body>
+
+  <section id="home-cover" class="rotatedin">
+    <div class="tictac-caption">
+      <div class="container-fluid">
+        <div class="col-xs-6 col-xs-offset-3">
+          <table id="home-bord">
+            <tr> <td> <a id="onePlayerid" class="btn1 aone" onclick="OnePlayer()">One player</a> </td> </tr>
+            <tr> <td> <a id="twoPlayersid" class="btn1" onclick="TwoPlayer()">Two player</a> </td> </tr>
+            <tr> <td> <a id="aboutmeid" class="btn1" onclick="About()">About</a> </td> </tr>
+            <tr> <td> <a id="exitid" class="btn1" onclick="Exit()">Exit</a> </td> </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tictac-cover" class="rotatedout">
+  <div class="tictac-caption">
+    <div class="container-fluid">
+      <h1 class="display-4"><a onclick="changePlayer()" data-toggle="tooltip" data-placement="top" title="Click To Go Back">tic tac toe</a></h1>
+      <div class="col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3" id="content-column">
+        <div id="tictac-bord">
+
+          <input type="button" id="btn1" onclick="tic('btn1')">
+          <input type="button" id="btn2" onclick="tic('btn2')">
+          <input type="button" id="btn3" onclick="tic('btn3')">
+          <span>
+            <input type="button" id="btn4" onclick="tic('btn4')">
+            <input type="button" id="btn5" onclick="tic('btn5')">
+            <input type="button" id="btn6" onclick="tic('btn6')">
+          </span>
+          <input type="button" id="btn7" onclick="tic('btn7')">
+          <input type="button" id="btn8" onclick="tic('btn8')">
+          <input type="button" id="btn9" onclick="tic('btn9')">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>this App coded by menem </footer>
+
+<!-- jquery -->
+<script src="js/jqueryv2.2.0.js" charset="utf-8"></script>
+<!-- <script src="js/bootstrap.min.js" charset="utf-8"></script> -->
+<script src="js/sweetalert.min.js" charset="utf-8"></script>
+<script src="js/sweetalert-dev.js" charset="utf-8"></script>
+<!-- my custom script -->
+<script src="js/stable.js" charset="utf-8"></script>
+</body>
+</html>

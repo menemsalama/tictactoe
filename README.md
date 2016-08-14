@@ -1,2 +1,2 @@
 # simple tic tac toe game
-# [game link](http://tictactoe.netlify.com/)
+# [live](http://tictactoe1.netlify.com/)

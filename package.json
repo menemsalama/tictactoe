@@ -1,0 +1,30 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "tictactoe game in js and html5 canvas",
+  "main": "index.html",
+  "scripts": {
+    "builder": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menemslama/tictactoe.git"
+  },
+  "keywords": [
+    "tictactoe",
+    "js",
+    "html5"
+  ],
+  "author": "menem.slama@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/menemslama/tictactoe/issues"
+  },
+  "homepage": "https://github.com/menemslama/tictactoe#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-ruby-sass": "^2.0.6"
+  }
+}

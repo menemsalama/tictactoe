@@ -1,2 +1,3 @@
-# simple tic tac toe game
-# [game link](http://tictactoe.netlify.com/)
+# TicTacToe game using html5 canvas and js
+
+# [Live](http://tictactoe.netlify.com/)

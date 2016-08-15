@@ -1,6 +1,5 @@
 html, body {
   height: 100%;
-  background: rgba(0, 0, 0, 0.9);
   padding: 0;
   margin: 0; }
 
@@ -20,16 +19,19 @@ canvas {
 
 nav {
   background: #1abc9c;
+  -webkit-box-shadow: 0 2.2px 7px #888888;
+  -moz-box-shadow: 0 2.2px 7px #888888;
+  border-radius: 0 2.2px 7px #888888;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  line-height: 45px;
-  height: 45px; }
+  height: 55px;
+  line-height: 55px; }
   nav span {
     padding: 12px 5px;
     cursor: default;
-    margin: 0 10px;
-    font-size: 20px; }
+    margin: auto 10px;
+    font-size: 22px; }
   nav .bt:hover {
     cursor: pointer; }

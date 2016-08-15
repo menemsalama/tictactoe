@@ -1,8 +1,13 @@
+=border-radius($shadow)
+  -webkit-box-shadow: $shadow
+  -moz-box-shadow:    $shadow
+  border-radius:      $shadow
+
 html, body
   height: 100%
-  background: rgba(0, 0, 0, 0.9)
   padding: 0
   margin: 0
+  
 canvas
   position: absolute
   margin: auto
@@ -17,20 +22,20 @@ canvas
   background: rgba(255, 255, 255, 0.5)
   color: #fff
 
-
 nav
   background: #1abc9c
+  +border-radius(0 2.2px 7px #888888)
   position: absolute
   top: 0
   left: 0
   width: 100%
-  line-height: 45px
-  height: 45px
+  height: 55px
+  line-height: 55px
   span
     padding: 12px 5px
     cursor: default
-    margin: 0 10px
-    font-size: 20px
+    margin: auto 10px
+    font-size: 22px
   .bt:hover
     @extend .selected
     cursor: pointer
